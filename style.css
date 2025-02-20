@@ -15,6 +15,24 @@ body {
  padding: 15px;
 }
 
+.agrupador{
+  display: flex;
+  align-items: center;
 
+}
+  
+.imagem-destaque{
+  width: 80%;
+
+ 
+}
+
+.conteudo{
+  width: 68%;
   
 
+  
+}
+h2{
+  text-align: center;
+}
