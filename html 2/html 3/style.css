@@ -1,0 +1,64 @@
+html {
+    background-image: url(https://preview.redd.it/67adar75dk321.png?width=1080&crop=smart&auto=webp&s=94d53804d59d3c3aca46e846cccb634d86d696c9);
+    background-size: 188%; 
+  } 
+  .agrupador{
+    display: flex;
+    align-items: center;
+    /* background-color: deeppink; */
+  
+  }
+    
+  .imagem-destaque{
+    width: 80%;
+    /* background-color: chocolate; */
+  
+  }
+  .imagem-destaque img{
+    margin: 0;
+    padding-left: -300px   ;
+    /* background-color: aqua; */
+  }
+  
+  .conteudo{
+    margin: -336px;
+    margin-top: -305px;
+    margin-left: -113px;
+    /* background-color: blue; */
+  
+    
+  }
+
+  header img {
+    width: 18%;
+  }
+
+  .Agrupador2 {
+    display: flex;
+    align-items: center;
+    /* background-color: chartreuse; */
+  }
+
+
+  .Imagem-destaque2{
+    width: 100%;
+    /* background-color: indigo; */
+  }
+
+
+  .Imagem-destaque2 img{
+    margin: 0;
+    padding-left: -210px;
+    width: 160%;
+    /* background-color: aqua; */
+
+    
+    }
+  .conteudo2{
+    margin: -512px;
+    margin-top: -492px;
+    margin-left: 141px;
+    /* background-color: blue */
+
+  }
+ 
