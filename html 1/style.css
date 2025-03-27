@@ -6,40 +6,75 @@
 html {
     background-image: url(https://bazarhorizonte.vtexassets.com/arquivos/ids/337670-800-800?v=636304602433300000&width=800&height=800&aspect=true);
   }
-  header{
+
+header{
     font-size: 800%;
      
   }
-  header:hover, header:active {font-size: 880%;}
-  body {
+header:hover, header:active {font-size: 880%;}
+body{
     width: 1500px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 100%);
     padding: 0 20px 20px 20px;
     border: 5px solid rgb(162, 196, 212);
     border-radius: 25px 25px 25px 25px;
     font-family: Short;
+    
+
+ }
+ nav{
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 900px;
+  color: rgb(118, 118, 219);
+  font-size: xx-large;
+  margin-top: 0px;
+  border-radius: 25px 0px 0px 25px;
+  font-size: 300%;
+  text-align: right;
   }
-  main{
+ul{
+ 
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+
+}
+ul li {
+  background-color: black;
+  padding: 5px;
+  border-radius: 10px;
+}
+p{
+    color: rgb(161, 161, 242);
+    font-size: 150% 
+  }
+main{
     display: flex;
     gap: 20px;
     justify-content: space-around;
   }
-  .controle-artigos{
+.controle-artigos{
     display: flex;
     flex-direction: column;
     gap: 5px;
     width: 60%;
   }
-  .texto1{
+.texto1{
     background-color: rgb(255, 255, 255);
     /* display: flexbox; */
   }
-  .texto2{
+.texto2{
     background-color: rgb(255, 255, 255);
     /* display: flexbox; */
   }
-  aside{
+aside{
     /* background-image: url(./imagens/dftb9ak-43f0acfc-8aa1-4c4c-8230-f4f62799b213.png);  */
     width: 30;
     /* animation-name: snoopy;
@@ -56,8 +91,8 @@ html {
     100% {background-image: url(./imagens/dftb9ak-43f0acfc-8aa1-4c4c-8230-f4f62799b213.png) ; background-repeat: no-repeat ; background-size: cover} */
    /* } */
   
-  .gif {
-    text-align: left;
+.gif {
+   text-align: left;
    padding: 15px;
   }
   
@@ -92,4 +127,21 @@ html {
     font-size: 280%; 
 
   }
- 
+
+  h3:hover, h3:active {font-size: 330%;}
+
+.controle{
+    display: flex;
+    /* background-color: blueviolet; */
+    justify-content: space-between;
+}
+.texto_video{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.video{
+  display: flex;
+  border: 10px dashed rgb(121, 134, 211);
+  border-radius: 10px;
+}
