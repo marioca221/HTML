@@ -16,7 +16,7 @@ body{
     width: 1500px;
     margin: 0 auto;
     background-color: hsl(0, 0%, 100%);
-    padding: 0 20px 20px 20px;
+    padding: 0 0px 20px 20px;
     border: 5px solid rgb(162, 196, 212);
     border-radius: 25px 25px 25px 25px;
     font-family: Short;
@@ -24,33 +24,34 @@ body{
 
  }
  nav{
-  background-color: black;
+  background-color: rgb(162, 196, 212);
   display: flex;
   flex-wrap: wrap;
   margin-left: 900px;
-  color: rgb(118, 118, 219);
+  color: rgb(248, 248, 248);
   font-size: xx-large;
   margin-top: 0px;
   border-radius: 25px 0px 0px 25px;
   font-size: 300%;
-  text-align: right;
+  
   }
 ul{
  
   display: flex;
   justify-content: space-around;
-  gap: 10px;
+  gap: 50px;
   list-style: none;
   margin: 0;
   padding: 0;
-  width: 50%;
+  width: 80%;
 
 }
 ul li {
-  background-color: black;
+  background-color: transparent;
   padding: 5px;
   border-radius: 10px;
 }
+li:hover, li:active {font-size: 120%;}
 p{
     color: rgb(161, 161, 242);
     font-size: 150% 
@@ -91,10 +92,10 @@ aside{
     100% {background-image: url(./imagens/dftb9ak-43f0acfc-8aa1-4c4c-8230-f4f62799b213.png) ; background-repeat: no-repeat ; background-size: cover} */
    /* } */
   
-.gif {
+/* .gif {
    text-align: left;
    padding: 15px;
-  }
+  } */
   
   .agrupador{
     display: flex;
