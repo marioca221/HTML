@@ -97,39 +97,36 @@ aside{
    padding: 15px;
   } */
   
-  .agrupador{
+.agrupador{
     display: flex;
     align-items: center;
   
   }
- 
-  .imagem-destaque{
+ .imagem-destaque{
     width: 80%;
   
   }
 
-  .conteudo{
+.conteudo{
     margin: -9px;
     margin-top: -115px;
     margin-left: -26px;
 }
   
-
-   h2{
+ h2{
     text-align: center;
     font-size: 280%; 
-  } 
-  h2:hover, h2:active {font-size: 330%;}
+ } 
+h2:hover, h2:active {font-size: 330%;}
   
   
   
-   h3{
+h3{
     text-align: center;
     font-size: 280%; 
+   }
 
-  }
-
-  h3:hover, h3:active {font-size: 330%;}
+ h3:hover, h3:active {font-size: 330%;}
 
 .controle{
     display: flex;
@@ -146,3 +143,10 @@ aside{
   border: 10px dashed rgb(121, 134, 211);
   border-radius: 10px;
 }
+h5{
+  text-align: center;
+  font-size: 280%; 
+ }
+
+h5:hover, h5:active {font-size: 330%;}
+
