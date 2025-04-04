@@ -149,4 +149,38 @@ h5{
  }
 
 h5:hover, h5:active {font-size: 330%;}
+/* .Tirinha{
+
+
+}
+.tirinha{ */
+
+
+
+h4 {
+  text-align: center;
+  font-size: 555%; 
+
+
+}
+
+
+.tirinhas_imagens{
+  display: flex;
+  gap: 170px;
+  width: 500%;
+}
+
+.tirinhas_imagens2{
+  display: flex;
+  gap: 170px;
+  width: 500%;
+}
+ 
+.tirinhas_imagens img{
+  border: 10px dashed rgb(121, 134, 211);
+}
+.tirinhas_imagens2 img{
+  border: 10px dashed rgb(121, 134, 211);
+}
 
