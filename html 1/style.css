@@ -13,6 +13,7 @@ header{
   }
 header:hover, header:active {font-size: 880%;}
 body{
+  
     width: 1500px;
     margin: 0 auto;
     background-color: hsl(0, 0%, 100%);
@@ -67,35 +68,11 @@ main{
     gap: 5px;
     width: 60%;
   }
-.texto1{
-    background-color: rgb(255, 255, 255);
-    /* display: flexbox; */
-  }
-.texto2{
-    background-color: rgb(255, 255, 255);
-    /* display: flexbox; */
-  }
-aside{
-    /* background-image: url(./imagens/dftb9ak-43f0acfc-8aa1-4c4c-8230-f4f62799b213.png);  */
-    width: 30;
-    /* animation-name: snoopy;
-    animation-duration: 12s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;  */
 
-    /* display: flexbox; */
-  }
-   /* @keyframes snoopy{
-    0% {background-image: url(./imagens/Snoopy-Christmas-PNG-Free-Download.png) ; background-repeat: no-repeat ; background-size: cover}
-    50% {background-image: url(./imagens/Snoopy-Holding-Woodstock-PNG-HD-Quality.gif) ; background-repeat: no-repeat ; background-size: cover}
-    75% {background-image: url(./imagens/snoopy-vector.png) ; background-repeat: no-repeat ; background-size: cover}
-    100% {background-image: url(./imagens/dftb9ak-43f0acfc-8aa1-4c4c-8230-f4f62799b213.png) ; background-repeat: no-repeat ; background-size: cover} */
-   /* } */
+aside{
+    width: 30;
   
-/* .gif {
-   text-align: left;
-   padding: 15px;
-  } */
+  }
   
 .agrupador{
     display: flex;
@@ -119,8 +96,6 @@ aside{
  } 
 h2:hover, h2:active {font-size: 330%;}
   
-  
-  
 h3{
     text-align: center;
     font-size: 280%; 
@@ -130,7 +105,6 @@ h3{
 
 .controle{
     display: flex;
-    /* background-color: blueviolet; */
     justify-content: space-between;
 }
 .texto_video{
@@ -149,13 +123,6 @@ h5{
  }
 
 h5:hover, h5:active {font-size: 330%;}
-/* .Tirinha{
-
-
-}
-.tirinha{ */
-
-
 
 h4 {
   text-align: center;
